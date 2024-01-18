@@ -1,0 +1,15 @@
+package com.employeetest.EmployeeTest.dto.user;
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+@Getter
+@Setter
+@AllArgsConstructor
+@NoArgsConstructor
+public class OneUserDTO {
+    private Boolean status;
+    private UserDTO data;
+}
